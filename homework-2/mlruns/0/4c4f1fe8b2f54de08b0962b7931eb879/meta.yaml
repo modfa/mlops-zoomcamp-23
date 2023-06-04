@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/4c4f1fe8b2f54de08b0962b7931eb879/artifacts
+end_time: 1685911230961
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4c4f1fe8b2f54de08b0962b7931eb879
+run_name: debonair-ant-938
+run_uuid: 4c4f1fe8b2f54de08b0962b7931eb879
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1685911222359
+status: 3
+tags: []
+user_id: modf

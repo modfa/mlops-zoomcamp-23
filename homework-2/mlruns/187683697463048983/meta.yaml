@@ -1,0 +1,6 @@
+artifact_location: file:///home/modf/mlops-zoomcamp-23/homework-2/mlruns/187683697463048983
+creation_time: 1685911328413
+experiment_id: '187683697463048983'
+last_update_time: 1685911328413
+lifecycle_stage: active
+name: nyc-taxi-experiment-homework

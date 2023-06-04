@@ -1,0 +1,15 @@
+artifact_uri: file:///home/modf/mlops-zoomcamp-23/homework-2/mlruns/187683697463048983/13ca483e41264c8fafd0f4b6d8d64f28/artifacts
+end_time: 1685911339144
+entry_point_name: ''
+experiment_id: '187683697463048983'
+lifecycle_stage: active
+run_id: 13ca483e41264c8fafd0f4b6d8d64f28
+run_name: skittish-croc-417
+run_uuid: 13ca483e41264c8fafd0f4b6d8d64f28
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1685911328623
+status: 3
+tags: []
+user_id: modf
