@@ -1,0 +1,58 @@
+{
+    "os": "Linux-5.19.0-1022-gcp-x86_64-with-glibc2.35",
+    "python": "3.10.6",
+    "heartbeatAt": "2023-06-08T06:49:39.561115",
+    "startedAt": "2023-06-08T06:49:38.638730",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--wandb_project",
+        "wandb_workshop",
+        "--wandb_entity",
+        "modf",
+        "--data_artifact",
+        "modf/wandb_workshop/NYC-Taxi:v0"
+    ],
+    "state": "running",
+    "program": "/home/modf/wnab-workshop/sweep.py",
+    "codePath": "sweep.py",
+    "host": "mlops-zoomcamp",
+    "username": "modf",
+    "executable": "/usr/bin/python3",
+    "cpu_count": 2,
+    "cpu_count_logical": 4,
+    "cpu_freq": {
+        "current": 2800.248,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2800.248,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2800.248,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2800.248,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2800.248,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "total": 28.89361572265625,
+        "used": 12.934520721435547
+    },
+    "memory": {
+        "total": 15.622875213623047
+    }
+}

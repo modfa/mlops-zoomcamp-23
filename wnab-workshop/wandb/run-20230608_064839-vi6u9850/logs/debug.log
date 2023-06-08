@@ -1,0 +1,34 @@
+2023-06-08 06:48:39,344 INFO    Thread-2 (_run_job):18424 [wandb_setup.py:_flush():76] Current SDK version is 0.15.4
+2023-06-08 06:48:39,345 INFO    Thread-2 (_run_job):18424 [wandb_setup.py:_flush():76] Configure stats pid to 18424
+2023-06-08 06:48:39,345 INFO    Thread-2 (_run_job):18424 [wandb_setup.py:_flush():76] Loading settings from /home/modf/.config/wandb/settings
+2023-06-08 06:48:39,345 INFO    Thread-2 (_run_job):18424 [wandb_setup.py:_flush():76] Loading settings from /home/modf/wnab-workshop/wandb/settings
+2023-06-08 06:48:39,345 INFO    Thread-2 (_run_job):18424 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'entity': 'modf', 'project': 'wandb_workshop', 'root_dir': '/home/modf/wnab-workshop', 'sweep_id': 'w4sgnjke', 'run_id': 'vi6u9850', 'sweep_param_path': '/home/modf/wnab-workshop/wandb/sweep-w4sgnjke/config-vi6u9850.yaml'}
+2023-06-08 06:48:39,345 INFO    Thread-2 (_run_job):18424 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-06-08 06:48:39,345 INFO    Thread-2 (_run_job):18424 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'sweep.py', 'program': '/home/modf/wnab-workshop/sweep.py'}
+2023-06-08 06:48:39,345 INFO    Thread-2 (_run_job):18424 [wandb_init.py:_log_setup():507] Logging user logs to /home/modf/wnab-workshop/wandb/run-20230608_064839-vi6u9850/logs/debug.log
+2023-06-08 06:48:39,345 INFO    Thread-2 (_run_job):18424 [wandb_init.py:_log_setup():508] Logging internal logs to /home/modf/wnab-workshop/wandb/run-20230608_064839-vi6u9850/logs/debug-internal.log
+2023-06-08 06:48:39,345 INFO    Thread-2 (_run_job):18424 [wandb_init.py:init():547] calling init triggers
+2023-06-08 06:48:39,345 INFO    Thread-2 (_run_job):18424 [wandb_init.py:init():554] wandb.init called with sweep_config: {'max_depth': 14, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 25}
+config: {}
+2023-06-08 06:48:39,345 INFO    Thread-2 (_run_job):18424 [wandb_init.py:init():596] starting backend
+2023-06-08 06:48:39,345 INFO    Thread-2 (_run_job):18424 [wandb_init.py:init():600] setting up manager
+2023-06-08 06:48:39,350 INFO    Thread-2 (_run_job):18424 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-06-08 06:48:39,355 INFO    Thread-2 (_run_job):18424 [wandb_init.py:init():606] backend started and connected
+2023-06-08 06:48:39,360 INFO    Thread-2 (_run_job):18424 [wandb_run.py:_config_callback():1283] config_cb None None {'max_depth': 14, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 25}
+2023-06-08 06:48:39,361 INFO    Thread-2 (_run_job):18424 [wandb_init.py:init():703] updated telemetry
+2023-06-08 06:48:39,361 INFO    Thread-2 (_run_job):18424 [wandb_init.py:init():736] communicating run to backend with 60.0 second timeout
+2023-06-08 06:48:40,139 INFO    Thread-2 (_run_job):18424 [wandb_run.py:_on_init():2176] communicating current version
+2023-06-08 06:48:40,246 INFO    Thread-2 (_run_job):18424 [wandb_run.py:_on_init():2185] got version response 
+2023-06-08 06:48:40,246 INFO    Thread-2 (_run_job):18424 [wandb_init.py:init():787] starting run threads in backend
+2023-06-08 06:48:40,266 INFO    Thread-2 (_run_job):18424 [wandb_run.py:_console_start():2155] atexit reg
+2023-06-08 06:48:40,267 INFO    Thread-2 (_run_job):18424 [wandb_run.py:_redirect():2010] redirect: SettingsConsole.WRAP_RAW
+2023-06-08 06:48:40,268 INFO    Thread-2 (_run_job):18424 [wandb_run.py:_redirect():2075] Wrapping output streams.
+2023-06-08 06:48:40,268 INFO    Thread-2 (_run_job):18424 [wandb_run.py:_redirect():2100] Redirects installed.
+2023-06-08 06:48:40,268 INFO    Thread-2 (_run_job):18424 [wandb_init.py:init():828] run started, returning control to user process
+2023-06-08 06:48:56,829 INFO    Thread-2 (_run_job):18424 [wandb_run.py:_finish():1890] finishing run modf/wandb_workshop/vi6u9850
+2023-06-08 06:48:56,829 INFO    Thread-2 (_run_job):18424 [wandb_run.py:_atexit_cleanup():2124] got exitcode: 0
+2023-06-08 06:48:56,829 INFO    Thread-2 (_run_job):18424 [wandb_run.py:_restore():2107] restore
+2023-06-08 06:48:56,829 INFO    Thread-2 (_run_job):18424 [wandb_run.py:_restore():2113] restore done
+2023-06-08 06:49:10,148 INFO    Thread-2 (_run_job):18424 [wandb_run.py:_footer_history_summary_info():3467] rendering history
+2023-06-08 06:49:10,148 INFO    Thread-2 (_run_job):18424 [wandb_run.py:_footer_history_summary_info():3499] rendering summary
+2023-06-08 06:49:10,152 INFO    Thread-2 (_run_job):18424 [wandb_run.py:_footer_sync_info():3426] logging synced files
