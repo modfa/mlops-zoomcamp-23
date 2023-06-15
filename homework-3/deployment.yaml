@@ -1,13 +1,10 @@
 deployments:
-- name: null
-  version: null
-  tags: []
-  description: null
-  schedule: {}
-  flow_name: null
-  entrypoint: null
-  parameters: {}
+- name: taxi_local_data
+  entrypoint: /home/modf/mlops-zoomcamp-23/homework-3/orechestrate.py:main_flow
   work_pool:
-    name: null
-    work_queue_name: null
-    job_variables: {}
+    name: zoompool-homework
+
+- name: taxi_local_data_md
+  entrypoint: /home/modf/mlops-zoomcamp-23/homework-3/orchestrate_mdown.py:main_flow_md
+  work_pool:
+    name: zoompool-homework

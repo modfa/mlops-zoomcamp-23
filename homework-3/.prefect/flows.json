@@ -1,3 +1,4 @@
 {
-  "main-flow": "orechestrate.py:main_flow"
+  "main-flow": "orechestrate.py:main_flow",
+  "main-flow-md": "orchestrate_mdown.py:main_flow_md"
 }
